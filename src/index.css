@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(9, 5, 27);
+}
+
+code {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.setproperty .card {
+  border: 5px solid black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.setproperty .card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+.setproperty .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.setproperty .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.setproperty .card-text {
+  font-size: 0.875rem;
+  margin-bottom: 0.5rem;
+}
+
+.setproperty audio {
+  margin-top: auto;
+}
